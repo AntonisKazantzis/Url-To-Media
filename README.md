@@ -32,7 +32,14 @@ cd url-to-media
 
 ## ▶️ Usage
 
-### 1. Run Rcript
+### 1. Run Rcript For Single Url
 ```bash
-python url_to_media.py "--> MEDIA URL HERE <--" --format mp4
+python url_to_media.py "" --format mp4
+python url_to_media.py "" --format mp3
+```
+
+### 2. Run Rcript For Multiple Urls
+```bash
+python url_to_media.py "" "" "" --format mp4
+python url_to_media.py "" "" "" --format mp3
 ```
